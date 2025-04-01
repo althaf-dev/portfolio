@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Profolio of Althaf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/althaf-dev/portfolio.git"
+  },
+  "keywords": [
+    "Althaf"
+  ],
+  "author": "Althaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/althaf-dev/portfolio/issues"
+  },
+  "homepage": "https://github.com/althaf-dev/portfolio#readme"
+}
