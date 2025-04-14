@@ -17,6 +17,8 @@ html {
   --imp-text-color: #c770f0;
 }
 
+
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -358,7 +360,7 @@ button:focus {
 
 .home-social-icons {
   position: relative !important;
-  display: inline-block !important;
+  display: grid;
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
@@ -367,6 +369,8 @@ button:focus {
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  place-content: center;
+ 
 }
 
 .home-social-icons::before {

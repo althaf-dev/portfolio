@@ -12,7 +12,7 @@ import Image from "next/image";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section bg-dark" id="about">
+    <Container  style={{ backgroundColor: '#151023', color: 'white'}} fluid className="home-about-section " id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple">  Javascript and Typescript. </b>
               </i>
               <br />
               <br />
@@ -69,17 +69,17 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/althaf-dev/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons border-danger"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -89,7 +89,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/abdulla-althaf-b86374a2/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -99,7 +99,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
