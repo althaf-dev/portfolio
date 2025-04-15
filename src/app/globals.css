@@ -616,14 +616,14 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
 .resume {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 50px;
   justify-content: center;
 }
