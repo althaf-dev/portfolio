@@ -553,6 +553,7 @@ button:focus {
 /* --------- */
 
 .about-section {
+  background-color: #2d1950;
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
