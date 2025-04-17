@@ -10,32 +10,23 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: 'justify' }}>
-            Hi Everyone, I am <span className="purple">Althaf </span>
-            from <span className="purple"> Bengaluru, India.</span>
-            <br />
+          Hi everyone! I'm Althaf, a passionate software engineer based in Bengaluru, India.
+        
             I am currently employed as a software engineer at Innoventes.
+         
+            I have completed B tech in electronics & communcation engineering, but I found my true calling in the world of software development — where logic meets creativity.
+
+
             <br />
-            I have completed B tech in electronics & communcation engineering
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+
           </p>
-          <ul>
-            <li className="about-activity d-flex  align-items-center gap-2 ">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity d-flex  align-items-center gap-2 ">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity d-flex  align-items-center gap-2 ">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-          <div style={{textAlign:"center"}}>
+         
+          <div style={{textAlign:"left"}}>
             <p style={{ color: 'rgb(155 126 172)' }}>
-              "Strive to build things that make a difference!"{' '}
+              "Driven by curiosity, powered by code, inspired by impact"{' '}
             </p>
-            <footer className="blockquote-footer">Althaf</footer>
+     
           </div>
         </blockquote>
       </Card.Body>

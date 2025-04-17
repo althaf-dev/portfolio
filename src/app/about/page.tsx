@@ -12,7 +12,7 @@ import { Button } from "react-component-libarary"
 function About() {
   return (
     <Container
-      style={{ backgroundColor: '#00000' }}
+      style={{ backgroundColor: '#00000',paddingLeft:"14px" }}
       fluid
       className="about-section"
     >
@@ -23,7 +23,7 @@ function About() {
             md={7}
             style={{
               justifyContent: 'center',
-              paddingTop: '30px',
+              paddingTop: '10px',
               paddingBottom: '50px',
               display: 'flex',
               flexDirection: 'column',
@@ -33,10 +33,11 @@ function About() {
               style={{
                 fontSize: '2.1em',
                 paddingBottom: '20px',
-                textAlign: 'center',
+                marginLeft:"12px"
+               
               }}
             >
-              Know Who <strong className="purple">I'M</strong>
+               <strong className="purple">Know </strong> Who I Am
             </h1>
             <Aboutcard />
           </Col>
@@ -49,13 +50,13 @@ function About() {
             {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
           </Col>
         </Row>
-        <h1 style={{textAlign:"center"}} className="project-heading text-center">
+        <h1  className="project-heading text-left ms-8 mb-4">
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
         <Techstack />
 
-        <h1 style={{textAlign:"center"}} className="project-heading">
+        <h1  className="project-heading ms-8 mb-4">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
