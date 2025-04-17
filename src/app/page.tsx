@@ -22,7 +22,7 @@ export default function Home() {
 
               <div className="flex flex-column flex-md-row md-gap-3 align-items-center">
                 <h1 className="heading-name ">
-                  I`&apos;`M
+                  I&apos;M
                   <strong className="main-name "> Abdulla Althaf,</strong>
                 </h1>
                 <h1>Software Engineer</h1>
