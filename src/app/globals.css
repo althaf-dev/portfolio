@@ -1,5 +1,4 @@
-@import "tailwindcss";
- 
+@import 'tailwindcss';
 
 html {
   --section-background-color: linear-gradient(
@@ -17,13 +16,13 @@ html {
   --imp-text-color: #c770f0;
 }
 
-footer{
-   display: flex;
-   padding-top: 1rem;
-   justify-content: center;
-   align-items: center;
-   background-color: #0c0513;
-   color: rgb(199, 112, 240);
+footer {
+  display: flex;
+  padding-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c0513;
+  color: rgb(199, 112, 240);
 }
 
 .purple {
@@ -200,7 +199,7 @@ button:focus {
 }
 
 .navbar-nav .nav-item a::after {
-  content: "";
+  content: '';
   position: relative;
   display: block;
   height: 5px;
@@ -335,7 +334,6 @@ button:focus {
 }
 
 .home-about-description {
-
   color: white !important;
   padding-left: 48px;
   padding-top: 60px !important;
@@ -354,7 +352,7 @@ button:focus {
   padding-top: 25px;
   color: white !important;
 }
-.img-fluid{
+.img-fluid {
   max-height: 450px;
 }
 
@@ -378,11 +376,10 @@ button:focus {
   border-radius: 50% !important;
   transition: 0.5s !important;
   place-content: center;
- 
 }
 
 .home-social-icons::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -570,9 +567,8 @@ button:focus {
   color: white !important;
 }
 
-
 .tech-icons {
-  font-size: 3.0em !important;
+  font-size: 3em !important;
   margin: 15px !important;
   padding: 4px !important;
   opacity: 0.93 !important;
@@ -695,7 +691,7 @@ button:focus {
 }
 
 .resume .resume-item::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 16px;
   height: 16px;
@@ -761,4 +757,32 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 1.4em !important;
+    padding-left: 4px !important;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .heading-name {
+    font-size: 1.5em !important;
+    padding-left: 4px !important;
+  }
+  .home-section {
+    padding-bottom: 30px !important;
+    padding-top: 0px !important;
+  }
+  .myAvtar {
+    justify-content: center !important;
+    padding-top: 2em !important;
+    padding-left: 4em !important;
+  }
+
+  .home-about-social-links {
+    display: flex !important;
+    flex-direction: row !important;
+  }
 }

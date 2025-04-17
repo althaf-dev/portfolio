@@ -68,7 +68,7 @@ function NavBar() {
                 href="/"
                 onClick={() => updateExpanded(false)}
               >
-                <div className="d-flex justify-content-between align-items-center gap-2">
+                <div className="d-flex md-justify-content-between align-items-center gap-2 md-gap-2">
                   <AiOutlineHome style={{ marginBottom: '2px' }} />
                   Home
                 </div>
@@ -81,7 +81,7 @@ function NavBar() {
                 href="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <div className="d-flex justify-content-between align-items-center gap-2">
+                <div className="d-flex md-justify-content-between align-items-center gap-2 md-gap-2">
                   <AiOutlineUser style={{ marginBottom: '2px' }} /> About
                 </div>
               </Nav.Link>
@@ -93,7 +93,7 @@ function NavBar() {
                 href="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <div className="d-flex justify-content-between align-items-center gap-2">
+                <div className="d-flex md-justify-content-between align-items-center gap-2 md-gap-2">
                   <AiOutlineFundProjectionScreen
                     style={{ marginBottom: '2px' }}
                   />
@@ -108,7 +108,7 @@ function NavBar() {
                 href="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <div className="d-flex justify-content-between align-items-center gap-2">
+               <div className="d-flex md-justify-content-between align-items-center gap-2 md-gap-2">
                   <CgFileDocument style={{ marginBottom: '2px' }} />
                   Resume
                 </div>

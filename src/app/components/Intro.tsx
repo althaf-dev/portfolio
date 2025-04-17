@@ -16,7 +16,7 @@ function Home2() {
       <Container>
         <Row className="d-flex justify-content-between">
           <Col md={8} className="home-about-description mt-4">
-            <h1 style={{ fontSize: "2.6em"  ,textAlign:"left"}}>
+            <h1 className="heading">
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
 
@@ -30,7 +30,7 @@ function Home2() {
           </Col>
           <Col md={3} className="myAvtar ">
            
-              <Image  src={myImg} alt="avatar" />
+              <Image src={myImg} alt="avatar" />
             
            
           </Col>
@@ -38,8 +38,8 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
 
-            <div className="d-flex align-items-center gap-16">
-               <p style={{textAlign:"left"}} className="ms-10">Let’s connect — I’d love to hear from you!</p>
+            <div className="d-flex flex-column flex-md-row align-items-center md-gap-16  justify-content-center ">
+               <p style={{textAlign:"left"}} className="ms-10 text-center md:text-left">Let’s connect — I’d love to hear from you!</p>
                <div className="p-0 -mt-2">
                <ul className="home-about-social-links">
               <li className="social-icons">

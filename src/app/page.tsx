@@ -16,21 +16,21 @@ export default function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{' '}
+                Hi There!
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
-              <div className="d-flex gap-3 align-items-center">
-                <h1 className="heading-name">
+              <div className="flex flex-column flex-md-row md-gap-3 align-items-center">
+                <h1 className="heading-name ">
                   I'M
-                  <strong className="main-name"> Abdulla Althaf,</strong>
+                  <strong className="main-name "> Abdulla Althaf,</strong>
                 </h1>
                 <h1>Software Engineer</h1>
               </div>
 
-              <h6 className="ms-12">
+              <h6 className="ms-12 mt-4">
                 Front-End Developer focused on crafting fast, accessible, and
                 scalable interfaces.
               </h6>

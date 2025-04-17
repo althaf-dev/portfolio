@@ -15,7 +15,7 @@ function Github() {
         Days I <strong className="purple">Code</strong>
       </h1>
 
-      <Row className='ms-8'>
+      <Row className='ms-8 d-flex md-flex-row flex-column'>
         <Col>
           <h5 className="text-center">Leet Code</h5>
           <div className="text-center d-flex justify-content-center">
