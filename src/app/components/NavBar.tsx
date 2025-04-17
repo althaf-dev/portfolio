@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import logo from '../../../public/logo.png';
+import logo from '../../../public/logo.svg';
 import Button from 'react-bootstrap/Button';
 import Link from 'next/link';
 import { CgGitFork } from 'react-icons/cg';
@@ -47,8 +47,8 @@ function NavBar() {
       className={navColour ? 'sticky' : 'navbar'}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <Image src={logo} alt="brand" height={30} />
+        <Navbar.Brand href="/" className="d-flex ms-8">
+          <Image src={logo} alt="brand" height={45} />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
