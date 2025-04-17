@@ -1,9 +1,7 @@
 
 import Image from 'next/image';
-import { Container, Row, Col, Button } from 'react-bootstrap';
-import Particle from './components/Particle';
+import { Container, Row, Col } from 'react-bootstrap';
 import homeLogo from '../../public/home-main.svg';
-import Type from './components/Type';
 import Intro from './components/Intro';
 import LandingCTA from './components/LandingCTA';
 
@@ -24,7 +22,7 @@ export default function Home() {
 
               <div className="flex flex-column flex-md-row md-gap-3 align-items-center">
                 <h1 className="heading-name ">
-                  I'M
+                  I`&apos;`M
                   <strong className="main-name "> Abdulla Althaf,</strong>
                 </h1>
                 <h1>Software Engineer</h1>

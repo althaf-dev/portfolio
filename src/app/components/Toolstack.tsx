@@ -1,27 +1,16 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { SiPostman, SiSlack, SiVercel, SiGitlab, SiNpm } from 'react-icons/si';
+import { SiPostman, SiVercel, SiGitlab, SiNpm } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 import { TbBrandRedux, TbBrandFigma } from 'react-icons/tb';
 import { BiLogoDocker } from 'react-icons/bi';
 // import { DiMongodb } from "react-icons/di";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
+
   DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
 } from 'react-icons/di';
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from 'react-icons/si';
-import { TbBrandGolang, TbBrandTypescript, TbBrandCss3 } from 'react-icons/tb';
+
+
 
 function Toolstack() {
   return (

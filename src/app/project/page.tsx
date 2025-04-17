@@ -4,7 +4,6 @@ import ProjectCard from '../components/ProjectCard';
 
 import editor from '../../../public/codeEditor.png';
 import chatify from '../../../public/chatify.png';
-import hrtool from '../../../public/HRtool.png';
 import bitsOfCode from '../../../public/blog.png';
 
 function Projects() {
@@ -16,7 +15,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: 'white' }} className='text-center'>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I`&apos;`ve worked on recently.
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className="project-card">

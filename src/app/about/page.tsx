@@ -7,7 +7,6 @@ import Aboutcard from '../components/AboutCard';
 import laptopImg from '../../../public/about.png';
 import Image from 'next/image';
 import Toolstack from "../components/Toolstack";
-import { Button } from "react-component-libarary"
 
 function About() {
   return (

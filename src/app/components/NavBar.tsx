@@ -8,7 +8,6 @@ import logo from '../../../public/logo.svg';
 import Button from 'react-bootstrap/Button';
 import Link from 'next/link';
 import { CgGitFork } from 'react-icons/cg';
-import { ImBlog } from 'react-icons/im';
 import {
   AiFillStar,
   AiOutlineHome,

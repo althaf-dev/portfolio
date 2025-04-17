@@ -1,5 +1,4 @@
 import React from 'react';
-import GitHubCalendar from 'react-github-calendar';
 import { Col, Row } from 'react-bootstrap';
 import Image from 'next/image';
 import leetcode from '../../../public/leetcode.png';

@@ -1,13 +1,21 @@
 "use client"
 
-import React from "react";
+import React, { ReactNode } from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-function ProjectCards(props:any) {
+
+interface Props{
+  imgPath: string | StaticImageData ;
+  title: ReactNode;
+  description: ReactNode;
+  isBlog:boolean;
+  ghLink:string;
+  demoLink:string
+
+}
+
+function ProjectCards(props:Props) {
   return (
     <Card className="project-card-view">
         <Image src={props.imgPath} alt="card-img"/>

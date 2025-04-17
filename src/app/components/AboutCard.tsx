@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import { ImPointRight } from 'react-icons/im';
+
 
 function AboutCard() {
   return (
@@ -10,7 +10,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: 'justify' }}>
-          Hi everyone! I'm Althaf, a passionate software engineer based in Bengaluru, India.
+          Hi everyone! I&apos;m Althaf, a passionate software engineer based in Bengaluru, India.
         
             I am currently employed as a software engineer at Innoventes.
          
@@ -24,7 +24,7 @@ function AboutCard() {
          
           <div style={{textAlign:"left"}}>
             <p style={{ color: 'rgb(155 126 172)' }}>
-              "Driven by curiosity, powered by code, inspired by impact"{' '}
+              `&quot;Driven by curiosity, powered by code, inspired by impact&quot;{' '}
             </p>
      
           </div>
