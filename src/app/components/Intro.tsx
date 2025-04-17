@@ -14,59 +14,34 @@ function Home2() {
   return (
     <Container  style={{ backgroundColor: '#151023', color: 'white'}} fluid className="home-about-section " id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+        <Row className="d-flex justify-content-between">
+          <Col md={8} className="home-about-description mt-4">
+            <h1 style={{ fontSize: "2.6em"  ,textAlign:"left"}}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple">  Javascript and Typescript. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+
+            <div className="mt-4">
+                <p className="home-about-body">I fell in love with programming — and I like to believe I’ve learned a few things along the way. 🤷‍♂️</p>
+                <p className="home-about-body">I’m fluent in core web languages like JavaScript and TypeScript, and I enjoy building fast, accessible, and scalable front-end experiences.</p>
+                <p className="home-about-body">My interests lie in creating impactful web products, exploring new technologies, and occasionally diving into areas like blockchain.</p>
+                <p className="home-about-body">Whenever I can, I bring my passion to life through tools like React.js, Next.js, and Node.js, applying modern JavaScript frameworks to build real-world solutions.</p>
+            </div>
+            
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={3} className="myAvtar ">
            
-              <Image src={myImg} alt="avatar" />
+              <Image  src={myImg} alt="avatar" />
             
            
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
+
+            <div className="d-flex align-items-center gap-16">
+               <p style={{textAlign:"left"}} className="ms-10">Let’s connect — I’d love to hear from you!</p>
+               <div className="p-0 -mt-2">
+               <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/althaf-dev/"
@@ -108,6 +83,11 @@ function Home2() {
                 </a>
               </li>
             </ul>
+               </div>
+            </div>
+          
+          
+           
           </Col>
         </Row>
       </Container>

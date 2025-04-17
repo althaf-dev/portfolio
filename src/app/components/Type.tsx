@@ -5,14 +5,10 @@ import { Typewriter } from 'react-simple-typewriter';
 export default function TypewriterEffect() {
   return (
     <h1>
-      I am{' '}
       <span style={{ color: 'purple', fontWeight: 'bold' }}>
         <Typewriter
           words={ [
-            "Software Developer",
-            "MERN Stack Developer",
-            "Open Source Contributor",
-          ]}
+            "Software Engineer"]}
           loop={5}
           cursor
           cursorStyle="."
